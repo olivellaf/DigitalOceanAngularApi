@@ -1,6 +1,8 @@
 # DigitalApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+This project has been created also through an existing library that connects with your Digital Ocean, thanks to: 
+https://github.com/pjpimentel/dots
 
 ## Development server
 
