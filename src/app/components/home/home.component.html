@@ -1,0 +1,20 @@
+
+<h3>Droplets List</h3>
+<ul class="list-group mt-3 mb-3">
+  <li class="list-group-item d-flex justify-content-between align-items-center"
+        *ngFor="let droplet of droplets">
+    <h5 class="pt-2">{{ droplet.name }}</h5>
+    <small>RAM: <strong>{{ droplet.memory }}</strong> - VCPUS <strong>{{ droplet.vcpus }}</strong> - DISK: <strong>{{ droplet.disk }}</strong></small>
+    <span class="badge badge-info badge-pill">id: {{ droplet.id }}</span>
+  </li>
+</ul>
+
+
+<h3 class="mt-4">Domains List</h3>
+<ul class="list-group mt-3 mb-3">
+  <li class="list-group-item d-flex justify-content-between align-items-center"
+        *ngFor="let domain of domains">
+    <h5 class="pt-2">{{ domain.name }}</h5>
+    <span class="badge badge-info badge-pill">ttl: {{ domain.ttl }}</span>
+  </li>
+</ul>
